@@ -215,3 +215,33 @@ $(document).ready(function(){
 		document.getElementById("overlay10").style.display = "none";
 		document.getElementById("dialog10").style.display = "none";
 	}
+
+// -------------------- Copy to Clipboard -----------------------
+
+function CopyToCss(cssid) {
+if (document.selection) { 
+    var range = document.body.createTextRange();
+    range.moveToElementText(document.getElementById(cssid));
+    range.select().createTextRange();
+    document.execCommand("copy"); 
+
+} else if (window.getSelection) {
+    var range = document.createRange();
+     range.selectNode(document.getElementById(cssid));
+     window.getSelection().addRange(range);
+     document.execCommand("copy");
+}}
+
+function CopyToJs(jsid) {
+if (document.selection) { 
+    var range = document.body.createTextRange();
+    range.moveToElementText(document.getElementById(jsid));
+    range.select().createTextRange();
+    document.execCommand("copy"); 
+
+} else if (window.getSelection) {
+    var range = document.createRange();
+     range.selectNode(document.getElementById(jsid));
+     window.getSelection().addRange(range);
+     document.execCommand("copy");
+}}
