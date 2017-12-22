@@ -233,7 +233,7 @@
                     <div class="ft-freespace-10x"></div>
                     <div class="ft-select">
                         <label class="ft-select-title">Project Start</label>
-                        <select id="ft-select-items">
+                        <select id="ft-select-items" name="ft-select">
                             <option value="0">Project Start</option>
                             <option value="Immediately">Immediately</option>
                             <option value="In the next month">In the next month</option>
@@ -252,7 +252,7 @@
                             <pre>
 <code class="html">&lt;div class="ft-select"&gt;
    &lt;label class="ft-select-title"&gt;Project Start&lt;/label&gt;
-   &lt;select id="ft-select-items"&gt;
+   &lt;select id="ft-select-items" name="ft-select"&gt;
        &lt;option value="0"&gt;Project Start&lt;/option&gt;
        &lt;option value="Immediately"&gt;Immediately&lt;/option&gt;
        &lt;option value="In the next month"&gt;In the next month&lt;/option&gt;
@@ -329,22 +329,22 @@
                 <article>
                     <h3>Button</h3>
                     <div class="ft-freespace-10x"></div>
-                    <div class="ft-btn ft-green">
+                    <button class="ft-btn ft-green">
                         <span class="ft-btn-text-primary">ဒီမှာနှိပ်ပါ</span>
                         <span class="ft-btn-text-secondary">Button</span>
-                    </div>
-                    <div class="ft-btn ft-blue">
+                    </button>
+                    <button class="ft-btn ft-blue">
                         <span class="ft-btn-text-primary">ဒီမှာနှိပ်ပါ</span>
                         <span class="ft-btn-text-secondary">Button</span>
-                    </div>
-                    <div class="ft-btn ft-yellow">
+                    </button>
+                    <button class="ft-btn ft-yellow">
                         <span class="ft-btn-text-primary">ဒီမှာနှိပ်ပါ</span>
                         <span class="ft-btn-text-secondary">Button</span>
-                    </div>
-                    <div class="ft-btn ft-red">
+                    </button>
+                    <button class="ft-btn ft-red">
                         <span class="ft-btn-text-primary">ဒီမှာနှိပ်ပါ</span>
                         <span class="ft-btn-text-secondary">Button</span>
-                    </div>
+                    </button>
                     <button onClick="showDialog5()" class="ft-link"><i class="fa fa-code"></i>code</button>
                     <!-- Dialog -->
                     <div id="overlay5" onClick="hideDialog5()"></div>
@@ -352,25 +352,25 @@
                         <h2>Button<span onClick="hideDialog5()">&times;</span></h2>
                         <div class="ft-checkbox-code">
                             <pre>
-<code class="html">&lt;div class="ft-btn ft-green"&gt;
+<code class="html">&lt;button class="ft-btn ft-green"&gt;
    &lt;span class="ft-btn-text-primary"&gt;ဒီမှာနှိပ်ပါ&lt;/span&gt;
    &lt;span class="ft-btn-text-secondary"&gt;Button&lt;/span&gt;
-&lt;/div&gt;
+&lt;/button&gt;
 
-&lt;div class="ft-btn ft-blue"&gt;
+&lt;button class="ft-btn ft-blue"&gt;
    &lt;span class="ft-btn-text-primary"&gt;ဒီမှာနှိပ်ပါ&lt;/span&gt;
    &lt;span class="ft-btn-text-secondary"&gt;Button&lt;/span&gt;
-&lt;/div&gt;
+&lt;/button&gt;
 
-&lt;div class="ft-btn ft-yellow"&gt;
+&lt;button class="ft-btn ft-yellow"&gt;
    &lt;span class="ft-btn-text-primary"&gt;ဒီမှာနှိပ်ပါ&lt;/span&gt;
    &lt;span class="ft-btn-text-secondary"&gt;Button&lt;/span&gt;
-&lt;/div&gt;
+&lt;/button&gt;
 
-&lt;div class="ft-btn ft-red"&gt;
+&lt;button class="ft-btn ft-red"&gt;
    &lt;span class="ft-btn-text-primary"&gt;ဒီမှာနှိပ်ပါ&lt;/span&gt;
    &lt;span class="ft-btn-text-secondary"&gt;Button&lt;/span&gt;
-&lt;/div&gt;</code>
+&lt;/button&gt;</code>
 </pre>
                         </div>
                     </div>
@@ -378,7 +378,7 @@
                 <article>
                     <h3>Icon Button</h3>
                     <div class="ft-freespace-10x"></div>
-                    <div class="ft-btn ft-green">
+                    <button class="ft-btn ft-green">
                         <div class="ft-btn-icon">
                             <i class="fa fa-search"></i>
                         </div>
@@ -386,8 +386,8 @@
                             <span class="ft-btn-text-primary">ဒီမှာနှိပ်ပါ</span>
                             <span class="ft-btn-text-secondary">Button</span>  
                         </div>
-                    </div>
-                    <div class="ft-btn ft-blue">
+                    </button>
+                    <button class="ft-btn ft-blue">
                         <div class="ft-btn-icon">
                             <i class="fa fa-search"></i>
                         </div>
@@ -395,8 +395,8 @@
                             <span class="ft-btn-text-primary">ဒီမှာနှိပ်ပါ</span>
                             <span class="ft-btn-text-secondary">Button</span>  
                         </div>
-                    </div>
-                    <div class="ft-btn ft-yellow">
+                    </button>
+                    <button class="ft-btn ft-yellow">
                         <div class="ft-btn-icon">
                             <i class="fa fa-search"></i>
                         </div>
@@ -404,8 +404,8 @@
                             <span class="ft-btn-text-primary">ဒီမှာနှိပ်ပါ</span>
                             <span class="ft-btn-text-secondary">Button</span>  
                         </div>
-                    </div>
-                    <div class="ft-btn ft-red">
+                    </button>
+                    <button class="ft-btn ft-red">
                         <div class="ft-btn-icon">
                             <i class="fa fa-search"></i>
                         </div>
@@ -413,7 +413,7 @@
                             <span class="ft-btn-text-primary">ဒီမှာနှိပ်ပါ</span>
                             <span class="ft-btn-text-secondary">Button</span>  
                         </div>
-                    </div>
+                    </button>
                     <button onClick="showDialog6()" class="ft-link"><i class="fa fa-code"></i>code</button>
                     <!-- Dialog -->
                     <div id="overlay6" onClick="hideDialog6()"></div>
@@ -421,37 +421,37 @@
                         <h2>Button With Icon<span onClick="hideDialog6()">&times;</span></h2>
                         <div class="ft-checkbox-code">
                             <pre>
-<code class="html">&lt;div class="ft-btn ft-green"&gt;
+<code class="html">&lt;button class="ft-btn ft-green"&gt;
    &lt;div class="ft-btn-icon"&gt;&lt;i class="fa fa-search"&gt;&lt;/i&gt;&lt;/div&gt;
    &lt;div class="ft-btn-text"&gt;
       &lt;span class="ft-btn-text-primary"&gt;ဒီမှာနှိပ်ပါ&lt;/span&gt;
       &lt;span class="ft-btn-text-secondary"&gt;Button&lt;/span&gt;    
    &lt;/div&gt;                             
-&lt;/div&gt;
+&lt;/button&gt;
 
-&lt;div class="ft-btn ft-blue"&gt;
+&lt;button class="ft-btn ft-blue"&gt;
    &lt;div class="ft-btn-icon"&gt;&lt;i class="fa fa-search"&gt;&lt;/i&gt;&lt;/div&gt;
    &lt;div class="ft-btn-text"&gt;
       &lt;span class="ft-btn-text-primary"&gt;ဒီမှာနှိပ်ပါ&lt;/span&gt;
       &lt;span class="ft-btn-text-secondary"&gt;Button&lt;/span&gt;    
    &lt;/div&gt; 
-&lt;/div&gt;
+&lt;/button&gt;
 
-&lt;div class="ft-btn ft-yellow"&gt;
+&lt;button class="ft-btn ft-yellow"&gt;
    &lt;div class="ft-btn-icon"&gt;&lt;i class="fa fa-search"&gt;&lt;/i&gt;&lt;/div&gt;
    &lt;div class="ft-btn-text"&gt;
       &lt;span class="ft-btn-text-primary"&gt;ဒီမှာနှိပ်ပါ&lt;/span&gt;
       &lt;span class="ft-btn-text-secondary"&gt;Button&lt;/span&gt;    
    &lt;/div&gt; 
-&lt;/div&gt;
+&lt;/button&gt;
 
-&lt;div class="ft-btn ft-red"&gt;
+&lt;button class="ft-btn ft-red"&gt;
    &lt;div class="ft-btn-icon"&gt;&lt;i class="fa fa-search"&gt;&lt;/i&gt;&lt;/div&gt;
    &lt;div class="ft-btn-text"&gt;
       &lt;span class="ft-btn-text-primary"&gt;ဒီမှာနှိပ်ပါ&lt;/span&gt;
       &lt;span class="ft-btn-text-secondary"&gt;Button&lt;/span&gt;    
    &lt;/div&gt;
-&lt;/div&gt;</code>
+&lt;/button&gt;</code>
 </pre>
                         </div>
                     </div>
@@ -491,31 +491,6 @@
                 <article>
                     <h3>Form Design</h3>
                     <div class="ft-freespace-10x"></div>
-                    <!-- <form action="" class="ft-form" method="get" accept-charset="utf-8">
-                        <div class="ft-form-item">
-                           <div>အမည်ဖြည့်ရန်<span>Name</span></div>
-                           <input type="text" id="name" name="name" minlength="2" data-err-minlength="အနည်းဆုံး နှစ်လုံးဖြည့်ရန်လိုအပ်သည်">
-                        </div>
-                        <div class="ft-form-item">
-                           <div>အီးမေးလ်ဖြည့်ရန်<span>Email</span></div>
-                           <input type="text" name="email">
-                        </div>
-                        <div class="ft-form-item">
-                           <div>မှတ်ချက်ပေးရန်<span>Comment</span></div>
-                           <textarea type="text" name="comment"></textarea>
-                        </div>
-                        <div>
-                           <button type="submit" class="ft-btn ft-green">
-                              <div class="ft-btn-icon">
-                                 <i class="fa fa-search"></i>
-                              </div>
-                              <div class="ft-btn-text">
-                                 <span class="ft-btn-text-primary">လော့ဂ်အင်ဝင်မည်</span>
-                                 <span class="ft-btn-text-secondary">Button</span>
-                              </div>
-                           </button>
-                        </div>
-                        </form> -->
                     <form action="" accept-charset="utf-8" class="ft-form" id="comment">
                         <div class="ft-form-item">
                             <div>အမည်ဖြည့်ရန်<span>Name</span></div>
@@ -627,7 +602,6 @@
 &lt;/div&gt;
 <div class="ft-freespace-10x"></div>
 &lt;!-- Search Icon --&gt;
-
 &lt;div class="ft-search-icon"&gt;
    &lt;form&gt;
       &lt;input type="text" class="ft-search-box" placeholder="Search"&gt;
@@ -636,7 +610,6 @@
 &lt;/div&gt;
 <div class="ft-freespace-10x"></div>
 &lt;!-- Search Outline --&gt;
-
 &lt;div class="ft-search-outline"&gt;
    &lt;form&gt;
       &lt;input type="text" class="ft-ft-search-box" placeholder="Search"&gt;
@@ -645,7 +618,6 @@
 &lt;/div&gt;
 <div class="ft-freespace-10x"></div>
 &lt;!-- Slide search box --&gt;
-
   &lt;div class="ft-search-slide"&gt;
      &lt;form&gt;
         &lt;div class="ft-search-btn" onclick="$(this).next().toggle().focus()"&gt;&lt;i class="fa fa-search"&gt;&lt;/i&gt;&lt;/div&gt;
